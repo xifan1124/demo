@@ -11,4 +11,10 @@ public class HelloSpringBoot {
         System.out.println("helloWorld spring boot");
         return "hello world spring boot";
     }
+
+    @RequestMapping(path = {"/helloWorld2"})
+    public String helloWorld2 (){
+        System.out.println("helloWorld spring boot2");
+        return "hello world spring boot2";
+    }
 }
