@@ -8,7 +8,7 @@ public class HelloSpringBoot {
 
     @RequestMapping(path = {"/helloWorld"})
     public String HelloSpring (){
-        System.out.println("helloWorld");
+        System.out.println("helloWorld spring boot");
         return "hello world spring boot";
     }
 }
